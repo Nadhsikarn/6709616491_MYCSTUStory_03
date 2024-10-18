@@ -65,12 +65,27 @@
     text-align: center;
     color: #872657;
 }
-.Educationhead {
+.Educationh {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    color: #622F22;
+    font-size: x-large;
+}
+.Educationinfo {
     margin-top: 60px;
     text-align: center;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: x-large;
+    font-size: large;
     color: #622F22;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.Educationinfo img {
+    width: 150px;
+    height: auto;
+    justify-content: center;
 }
 nav a {
     float: left;
