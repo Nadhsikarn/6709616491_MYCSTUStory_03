@@ -75,7 +75,6 @@
     margin-top: 60px;
     text-align: center;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: large;
     color: #622F22;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,6 +85,9 @@
     width: 150px;
     height: auto;
     justify-content: center;
+} 
+.Educationh text {
+    font-size: 1rem;
 }
 nav a {
     float: left;
@@ -192,3 +194,4 @@ footer {
     clear: both;
     font-family: "Acme", sans-serif;
 }
+@media ()
