@@ -19,8 +19,10 @@
     font-family: "Pixelify Sans", sans-serif;
     text-align: center;
     margin-top: 60px;
-    font-size: 1.5rem;
     color: #C34A2C;
+}
+.head2 h1{
+    font-size: 3rem;
 }
 .information {
     font-family: "Pixelify Sans", sans-serif;
@@ -28,12 +30,9 @@
     font-size: 1.25rem;
     margin-top: 40px;
     color: #C34A2C;
-    display: flex;
-    flex-direction: column;
-    
 }
 .Favanime {
-    margin-top: 80px;
+    margin-top: 50px;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 1.75rem;
     text-align: center;
@@ -100,9 +99,11 @@ nav a {
     font-family: "Pixelify Sans", sans-serif;
     color: #ffd905;
     font-weight: bold;
+    background-color: #a3b565;
 }
 nav a:hover {
     color: #e27a18;
+    background-color: plum;
 }
 .myjourney {
     background-image: url(resources/bg1.jpg);
@@ -195,4 +196,33 @@ footer {
     text-align: center;
     clear: both;
     font-family: "Acme", sans-serif;
+}
+@media screen and (max-width:983px){
+    nav a{
+        font-size: 2.25rem;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:796px){
+    nav a{
+        font-size: 2rem;
+    }
+    .heading {
+        font-size: 1.25rem;
+    }
+    .Educationinfo {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
+    }
+    .sf {
+        grid-row: 2/3;
+    }
+    .sw {
+        grid-row: 4/5;
+    }
+    .tu {
+        grid-row: 6/7;
+    }
 }
