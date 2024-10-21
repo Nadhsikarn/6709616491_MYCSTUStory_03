@@ -24,12 +24,28 @@
 .head2 h1{
     font-size: 3rem;
 }
-.information {
+.information{
     font-family: "Pixelify Sans", sans-serif;
     font-style: normal;
     font-size: 1.25rem;
     margin-top: 40px;
     color: #C34A2C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-for-info{
+    height: 30rem;
+    align-self: center;
+    justify-self: center;
+
+}
+.personalinfo{
+    padding: 1px;
+    margin-left: 3rem;
+}
+.personalinfo p{
+    font-weight: bolder;
+    font-size: 1.75rem;
 }
 .Favanime {
     margin-top: 50px;
@@ -80,11 +96,11 @@
     color: #622F22;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-rows: 2fr 2fr;
+    grid-row-gap: 10px;
 }
 .Educationinfo img {
-    width: 200px;
+    width: 50%;
     height: auto;
     justify-content: center;
 } 
@@ -197,11 +213,21 @@ footer {
     clear: both;
     font-family: "Acme", sans-serif;
 }
+
 @media screen and (max-width:983px){
     nav a{
         font-size: 2.25rem;
     }
     .heading {
+        font-size: 1.5rem;
+    }
+    .head2 {
+        font-size: 2.25rem;
+    }
+    .Educationh {
+        font-size: 1.25rem;
+    }
+    .Favanime {
         font-size: 1.5rem;
     }
 }
@@ -212,9 +238,22 @@ footer {
     .heading {
         font-size: 1.25rem;
     }
+    .head2 {
+        font-size: 2rem;
+    }
+    .Educationh {
+        font-size: 1rem;
+    }
+    .Favanime {
+        font-size: 1.25rem;
+    }
     .Educationinfo {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
+    }
+    .information{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .sf {
         grid-row: 2/3;
