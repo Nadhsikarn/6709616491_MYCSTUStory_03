@@ -36,7 +36,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .img-for-info{
-    height: 30rem;
+    height: 50vw;
     align-self: center;
     justify-self: center;
 }
@@ -46,7 +46,7 @@
 }
 .personalinfo p{
     font-weight: bolder;
-    font-size: 1.75rem;
+    font-size: 4vw;
 }
 .Favanime {
     margin-top: 50px;
@@ -55,7 +55,7 @@
     text-align: center;
     color: #9E4638;
 }
-.animepic{
+.animepic {
     font-family: "Pixelify Sans", sans-serif;
     font-size: x-large;
 }
@@ -69,17 +69,17 @@
     text-align: center;
     color: #045F5F;
 }
-.Spyfam{
+.Spyfam {
     margin-top: 60px;
     text-align: center;
     color: #F98B88;
 }
-.Windb{
+.Windb {
     margin-top: 60px;
     text-align: center;
     color: #004225;
 }
-.baseball{
+.baseball {
     margin-top: 60px;
     text-align: center;
     color: #872657;
@@ -105,14 +105,12 @@
     height: auto;
     justify-content: center;
 } 
-.Educationh h2 {
-    font-size: 1rem;
-}
+
 nav a {
     float: left;
-    margin-right: 11rem;
+    margin-right: 4rem;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 4rem;
     font-family: "Pixelify Sans", sans-serif;
     color: #ffd905;
     font-weight: bold;
@@ -214,11 +212,12 @@ footer {
     clear: both;
     font-family: "Acme", sans-serif;
 }
-
-@media screen and (max-width:877px){
-    .Homepage{
-        background-size: contain;
+@media screen and (max-width:1032px){
+    nav a {
+        font-size: 3rem;
     }
+}
+@media screen and (max-width:877px){
     html{
         font-size: 10px;
     }
@@ -238,5 +237,19 @@ footer {
     }
     .tu {
         grid-row: 6/7;
+    }
+    .sf h2{
+        font-size: 4vw;
+    }
+    .sw h2{
+        font-size: 4vw;
+    }
+    .tu h2 {
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width:877px){
+    nav a {
+        font-size: 3.75rem;
     }
 }
