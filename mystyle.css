@@ -12,10 +12,16 @@
     text-align: center;
 }
 .heading h1{
-    font-family: "Bungee Spice", sans-serif;
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(153, 116, 51);
     font-weight: 400;
     font-style: normal;
     font-size: 4.5vw;
+}
+.heading span {
+    background: -webkit-linear-gradient(#063942, #a33b33,	#e7c995);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .head2 {
     font-family: "Pixelify Sans", sans-serif;
@@ -51,7 +57,7 @@
 .Favanime {
     margin-top: 50px;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-align: center;
     color: #9E4638;
 }
